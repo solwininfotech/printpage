@@ -1,0 +1,22 @@
+{
+    "name": "solwin/printpage",
+    "description": "Print Product Page extension for Magento 2 provides clean print of product detail page without unnecessary header, footer & sidebar.",
+    "type": "magento2-module",
+    "version": "3.0.0",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Printpage\\": ""
+        }
+    }
+}
